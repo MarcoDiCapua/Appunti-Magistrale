@@ -1,0 +1,16 @@
+LABORATORI DI:
+- sistemi basati sulla conoscenza
+- sistemi a regole
+- sistemi basati sul Case Based Reasoning (C'E' GIA' TUTTO NEL PDF DELLE DOMANDE)
+- ontologie: in generale e per le 4 tipologie viste a lezione (C'E' GIA' TUTTO NEL PDF DELLE DOMANDE)
+
+BISOGNA SOLO SAPERE COSA SONO, COME SONO FATTI E A COSA SERVONO.
+NON DEVI SAPERE GLI ESEMPI.
+
+NON DEVI STUDIARE I LABORATORI DI:
+- Learning Management Systems
+- chatbot
+- realizzazione di un'ontologia in Protégé
+
+
+SUL FILE DELLE DOMANDE MANCA LA PARTE DI INTERACTION DESIGN PER IL RESTO CI SONO TUTTE LE POSSIBILI DOMANDE CON RISPOSTE
