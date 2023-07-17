@@ -1,0 +1,155 @@
+<mxfile host="app.diagrams.net" modified="2023-05-05T12:05:20.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Igh3npcQiVdDfvEHoXFA" version="21.2.9" type="device">
+  <diagram name="Pagina-1" id="HgTHmEEC4Ervq3L6hDwR">
+    <mxGraphModel dx="879" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VuU9LLI0Y12quu5Y5WVu-1" value="Library registration system" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="321" y="10" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-2" value="nationality = Italian" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ysa-vvETUyDiXOvy4hLq-1">
+          <mxGeometry x="-0.1604" relative="1" as="geometry">
+            <mxPoint x="291" y="120" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-7" value="nationality != Italian" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="Ysa-vvETUyDiXOvy4hLq-6">
+          <mxGeometry x="-0.1588" relative="1" as="geometry">
+            <mxPoint x="537" y="120" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-1" target="Ysa-vvETUyDiXOvy4hLq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-1" value="Ask to provide identification document data (passport number, expiration date || id-card number, expiration date, issuing town)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-3" value="Ask registration data (name,&lt;br&gt;contact address, resident address, nationality, date of birth, e-mail)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="291" y="90" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-6" target="Ysa-vvETUyDiXOvy4hLq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-6" value="Ask to provide passport data (passport number, expiration date)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="187" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-11" value="age &amp;lt; 18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="Ysa-vvETUyDiXOvy4hLq-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-10" target="Ysa-vvETUyDiXOvy4hLq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-10" value="Ask adult informations (name,&lt;br&gt;surname, library-id || passport number, expiration date)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="190" width="204" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-39" value="multiple national library system&lt;br&gt;&amp;nbsp;registration" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-14" target="Ysa-vvETUyDiXOvy4hLq-40">
+          <mxGeometry x="-0.0104" y="10" relative="1" as="geometry">
+            <mxPoint x="70" y="720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-14" value="Ask to indicate registration&amp;nbsp;to any&lt;br&gt;other library in the national library system (library-id)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="208" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-21" value="library-id is Valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-14" target="Ysa-vvETUyDiXOvy4hLq-20">
+          <mxGeometry x="-0.2344" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-23" value="library-id is NULL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-14" target="Ysa-vvETUyDiXOvy4hLq-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-20" target="Ysa-vvETUyDiXOvy4hLq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-20" value="Confirm library-id of other library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="480" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-25" value="priorRegistration is Valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-22" target="Ysa-vvETUyDiXOvy4hLq-24">
+          <mxGeometry x="-0.1589" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-32" value="priorRegistration is Expired" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-22" target="Ysa-vvETUyDiXOvy4hLq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-38" value="priorRegistration is NULL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-22" target="Ysa-vvETUyDiXOvy4hLq-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-22" value="Check&amp;nbsp;for the existence of a prior registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="480" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.442;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-24" target="Ysa-vvETUyDiXOvy4hLq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-24" value="Confirm the library-id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-28" value="registrationData is Valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-26" target="Ysa-vvETUyDiXOvy4hLq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-29" value="registrationData not Valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-26" target="Ysa-vvETUyDiXOvy4hLq-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="446" y="370" />
+              <mxPoint x="760" y="370" />
+              <mxPoint x="760" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-26" value="Check registration data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="290" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-30" value="library-id&amp;nbsp; not Valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-14" target="Ysa-vvETUyDiXOvy4hLq-14">
+          <mxGeometry x="-0.1358" y="-12" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="440" />
+              <mxPoint x="538" y="390" />
+              <mxPoint x="466" y="390" />
+            </Array>
+            <mxPoint x="12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-34" value="inactivity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-31" target="Ysa-vvETUyDiXOvy4hLq-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-36" value="badBehaviors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-31" target="Ysa-vvETUyDiXOvy4hLq-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-31" value="Check motivations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-33" target="Ysa-vvETUyDiXOvy4hLq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-33" value="Renew library-id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-35" value="Deny registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-37" target="Ysa-vvETUyDiXOvy4hLq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-37" value="Issue new library-id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ysa-vvETUyDiXOvy4hLq-40" target="Ysa-vvETUyDiXOvy4hLq-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-40" value="Hold registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-41" value="Signal anomaly to operator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ysa-vvETUyDiXOvy4hLq-43" value="Conclude registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
